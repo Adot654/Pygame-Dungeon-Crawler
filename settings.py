@@ -28,7 +28,7 @@ GRIDHEIGHT = HEIGHT / TILESIZE
 PLAYER_SPEED = 300
 
 # MELEE SETTINGS
-ATTACK_DMG = 10
+ATTACK_DMG = 15
 
 # LOADING - PATH for player running frames
 PLAYER_RUN_1_PATH = os.path.join('assets', 'knight_f_run_anim_f0.png')
