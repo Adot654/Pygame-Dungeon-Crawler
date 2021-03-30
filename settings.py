@@ -28,7 +28,7 @@ GRIDHEIGHT = HEIGHT / TILESIZE
 PLAYER_SPEED = 300
 PLAYER_ATTACK_DMG = 15
 PLAYER_HEALTH = 100
-PLAYER_HIT_RECT = pg.Rect(0, 0, 0, 0)
+PLAYER_HIT_RECT = pg.Rect(0, 0, 16, 28)
 
 # LOADING - PATH for player running frames
 PLAYER_RUN_1_PATH = os.path.join('assets', 'knight_f_run_anim_f0.png')
@@ -49,7 +49,7 @@ PLAYER_HIT_1_PATH = os.path.join('assets', 'knight_f_hit_anim_f0.png')
 MOB_SPEED = 100
 MOB_ATTACK_DMG = 10
 MOB_HEALTH = 100
-MOB_HIT_RECT = pg.Rect(0, 0, 0, 0)
+MOB_HIT_RECT = pg.Rect(0, 0, 16, 16)
 
 # LOADING - PATH for mob running frames
 MOB_RUN_1_PATH = os.path.join('assets', 'goblin_run_anim_f0.png')
